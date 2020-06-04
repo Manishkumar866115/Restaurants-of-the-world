@@ -1,0 +1,13 @@
+<div class="card bg-light mb-3" style="max-width: 20rem;">
+    <div class="card-header">{{restaurant.aggregateRating}} Star</div>
+    <div class="card-body">
+      <h4 class="card-title">{{restaurant.restaurantName}}</h4>
+      <p class="card-text">{{restaurant.cuisines}}</p>
+      <p class="card-text">{{restaurant.averageCostForTwo}} {{restaurant.currency}}
+        <button type="button" class="btn btn link" (click)="onClick()">>></button> 
+      </p>
+      <div *ngIf="state">
+        {{restaurant.votes}}
+      </div>
+    </div>
+  </div>

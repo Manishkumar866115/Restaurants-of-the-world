@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MY APP</a>
+    
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <form class="form-inline my-2 my-lg-0" (ngSubmit)="onSubmit()">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" [(ngModel)]="id" name="id">{{id}}
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>

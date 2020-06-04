@@ -1,0 +1,16 @@
+<div class="card border-secondary mb-3" style="max-width: 20rem;">
+    <div class="card-header">DETAILS</div>
+    <div class="card-body">
+      <h4 class="card-title">{{restaurant.restaurantName}}</h4>
+      <p class="card-text">Cousines offered - {{restaurant.cuisines}} <br>
+            Average User Rating - {{restaurant.aggregateRating}} <br>
+            Average Cost For Two- {{restaurant.averageCostForTwo}} <br>
+            Table Bookings Availability - {{restaurant.hasTableBooking}}<br>
+            Home Delivery Availability - {{ restaurant.hasOnlineDelivery}}<br>
+            Average Cost For Two - {{restaurant.averageCostForTwo}} {{restaurant.currency}}<br>
+            Votes - {{restaurant.votes}}<br>
+            Quality - {{restaurant.ratingText}}<br></p>
+    </div>
+  </div>
+  <app-restaurant-map-container></app-restaurant-map-container>
+  
